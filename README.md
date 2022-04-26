@@ -5,6 +5,8 @@ Who hasn't played card games at some point? From a very young age to a beer nigh
 Well, for this Challenge you will have to choose your favourite theme and recreate
 the [famous game](https://en.wikipedia.org/wiki/Concentration_(card_game)).
 
+![Brais Moure Challenge card](moure_memory-game.png)
+
 > This is a challenge created by [MoureDev](https://www.twitch.tv/mouredev). He will review and give feedback to some
 > proposed solutions from the community in one of his Twitch livestreams 😻 
 
