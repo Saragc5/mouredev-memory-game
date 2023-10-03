@@ -1,16 +1,16 @@
 import React from 'react';
 import Easy from './Components/Easy';
+import Header from './Components/Header';
 
-export default function App() {
+import './App.scss';
+
+function App() {
   return (
     <main>
-      <header>
-        <div>Time counter</div>
-        <div>Move counter</div>
-        <div>Remaining counter</div>
-        <button type="button">Choose level</button>
-      </header>
+      <Header />
       <Easy />
     </main>
   );
 }
+
+export default App;

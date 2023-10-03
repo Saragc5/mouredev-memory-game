@@ -1,5 +1,5 @@
 import React from 'react';
-import './Easy.sass';
+import './Easy.scss';
 
 export default function Easy() {
   return (

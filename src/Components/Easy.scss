@@ -1,0 +1,17 @@
+.table{
+  background-color: green;
+  display:grid;
+  width:50%;  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+ .card{
+  height:200px;
+  width:200px;
+  background-color: orange;
+  width:80%;
+  border:10px solid rgb(221, 157, 38);
+ }
+}
+
+ 
+
