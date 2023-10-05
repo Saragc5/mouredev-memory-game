@@ -1,0 +1,26 @@
+// header{
+//   background-color: pink;
+//   width:100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap:5px;
+  .options-game{
+    display: flex;
+    justify-content: space-around;
+    margin:10px;
+    padding: 10px;
+    gap:60px;
+    .counter{
+      padding: 15px;
+      border:3px solid rgb(165, 10, 10);
+    }
+    
+  }
+  .btn-choose{
+    width: 10em;
+    height:3em;
+    font-size: 1em;
+  }
+
+ 
