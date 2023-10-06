@@ -18,13 +18,18 @@ export default function Header() {
   return (
     <>
       <h1>Memory game</h1>
-      <div className="options-game">
-        <span id="time-counter" name="time-counter" className="counter">
-          Time counter
-        </span>
-        <span className="counter">Move counter</span>
-        <span className="counter">Remaining counter</span>
-      </div>
+      {!isHome ? (
+        <div className="options-game">
+          <span id="time-counter" name="time-counter" className="counter">
+            Time counter
+          </span>
+          <span className="counter">Move counter</span>
+          <span className="counter">Remaining counter</span>
+        </div>
+      ) : (
+        ""
+      )}
+
       {isHome ? (
         <button className="btn-level-hidden" type="button">
           Choose level
