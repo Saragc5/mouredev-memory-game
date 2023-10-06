@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Header.scss';
 import { useNavigate, useLocation } from 'react-router-dom';
+import TimeCounter from '../TimeCounter/TimeCounter';
+import MoveCounter from '../MoveCounter/MoveCounter';
+import RemainingCounter from '../RemainingCounter/RemainingCounter';
 
 export default function Header() {
   const [clicked, setClicked] = useState(false);
@@ -21,10 +24,14 @@ export default function Header() {
       {!isHome ? (
         <div className="options-game">
           <span id="time-counter" name="time-counter" className="counter">
-            Time counter
+            <TimeCounter />
           </span>
-          <span className="counter">Move counter</span>
-          <span className="counter">Remaining counter</span>
+          <span className="counter">
+            <MoveCounter />
+          </span>
+          <span className="counter">
+            <RemainingCounter />
+          </span>
         </div>
       ) : (
         ""
