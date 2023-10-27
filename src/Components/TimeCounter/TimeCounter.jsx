@@ -3,11 +3,12 @@ import React, { useState } from 'react';
 export default function TimeCounter() {
   const [count, setCount] = useState(60);
 
-  const handleCountMovements = () => {
+  const handleCountTime = () => {
     setCount(count - 1);
   };
+  setTimeout(handleCountTime, 60000);
    
   return (
-    <div onChange={handleCountMovements}>{`${count} segs`}</div>
+    <div onChange={handleCountTime}>{`${count} segs`}</div>
   );
 }

@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useAppContext } from '../ContextProvider';
 
 export default function MoveCounter() {
-  const [count, setCount] = useState(0);
-
-  const handleCountMovements = () => {
-    setCount(count + 1);
-  };
+  const { count, handleCountMovements } = useAppContext();
    
   return (
     <div onChange={handleCountMovements}>{`${count} tiradas`}</div>
