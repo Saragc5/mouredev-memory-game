@@ -1,11 +1,11 @@
 .table{
   background-color: green;
   display:grid;
-  width:50%;  
+  width:100%;  
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
  .card{
-  height:200px;
+  height:170px;
   width:200px;
   background-color: orange;
   width:80%;
