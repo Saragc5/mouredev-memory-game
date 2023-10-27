@@ -13,10 +13,10 @@ export default function Header() {
   const isHome = location.pathname === "/";
 
   const handleChangeLevel = () => {
-    if (!clicked) {
+    if (clicked) {
       setClicked(true);
       navigate('/');
-    }
+    } 
   };
   return (
     <>
@@ -43,7 +43,7 @@ export default function Header() {
         </button>
       ) : (
         <button className="btn-level" type="button" onClick={handleChangeLevel}>
-          Choose level
+          Change level
         </button>
       )}
 
