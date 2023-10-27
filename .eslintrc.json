@@ -32,9 +32,13 @@
       "react"
   ],
   "rules": {
-      "react/react-in-jsx-scope": "error", // Para advertencias en caso de que no se importe React
-      "react/jsx-uses-react": "error", // Para advertencias sobre el uso de React en JSX
-      "react/prop-types": "off",
-      "import/no-relative-parent-imports": "off"
-    }
+    "react/react-in-jsx-scope": "error", // Para advertencias en caso de que no se importe React
+    "react/jsx-uses-react": "error", // Para advertencias sobre el uso de React en JSX
+    "react/prop-types": "off",
+    "import/no-relative-parent-imports": "off",
+    // Configurar la regla "quotes" para permitir comillas simples, comillas dobles y plantillas de cadenas
+    "quotes": [0],
+    // Configurar la regla "no-trailing-spaces" para permitir espacios en blanco al final de las líneas
+    "no-trailing-spaces": [0]
+  }
 }
