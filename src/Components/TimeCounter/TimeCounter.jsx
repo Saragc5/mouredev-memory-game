@@ -9,6 +9,6 @@ export default function TimeCounter() {
   setTimeout(handleCountTime, 60000);
    
   return (
-    <div onChange={handleCountTime}>{`${count} segs`}</div>
+    <div style={{ backgroundColor: "red" }} onChange={handleCountTime}>{`${count} segs`}</div>
   );
 }
